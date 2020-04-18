@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "io.h": "c",
+        "delay.h": "c",
+        "binarymacro.h": "c",
+        "pindefines.h": "c",
+        "portpins.h": "c"
+    }
+}
