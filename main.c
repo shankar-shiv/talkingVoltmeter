@@ -96,23 +96,24 @@ int main(void)
 {
   initUSART();
   stdout = &mystdout;
+
   uint16_t voltage;
   uint8_t volts;
   uint8_t tenths;
-  uint8_t vcc = 51; /* 10x VCC, in volts */
+  uint8_t vcc = 50; /* 10x VCC, in volts */
 
-  clock_prescale_set(clock_div_1); /* 8 MHz */
+  clock_prescale_set(clock_div_1); /* 16 MHz */
   initTimer0();
   initTimer2();
   sei(); /* for timer2 ISR */
   initADC();
-  initUSART();
 
   printString_Progmem(PSTR("\r\n--=( Talking Voltmeter )=--\r\n"));
 
   selectTable(INTRO);
   speak();
 
+  
   while (1)
   {
 
