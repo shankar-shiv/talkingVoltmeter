@@ -1,6 +1,7 @@
 A fun little talking Voltmeter project from the great AVR Programming. 
 
-![cover photo](https://link)
+<img src="https://github.com/shankar-shiv/talkingVoltmeter/blob/master/images/cover_photo.jpg" alt="Cover photo" style="width:500px;height:600px;">
+
 
 This project uses DPCM. Differential Pulse-Code Modulation (DPCM), which is an audio compression method developed for compressing speech. 
 
